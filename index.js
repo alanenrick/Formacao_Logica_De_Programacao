@@ -4,7 +4,7 @@ let heroi = "Mago";
 var quantidadeXP = 1000;
 
 
-if (quantidadeXP < 1000) {
+if (quantidadeXP <= 1000) {
     var nivelHeroi = "Ferro";
 } else if (1000 < quantidadeXP & quantidadeXP <= 2000) {
     var nivelHeroi = "Bronze";
@@ -31,4 +31,4 @@ if (quantidadeXP < 1000) {
     console.log("Nível de Herói inválido!");
 }
 
-console.log("O Herói de nome " + heroi + " está nível de " + nivelHeroi);
+console.log("O Herói de nome " + heroi + " está no nível de " + nivelHeroi);
