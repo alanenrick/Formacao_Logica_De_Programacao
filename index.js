@@ -1,30 +1,30 @@
 
 let heroi = "Mago";
 
-var quantidadeXP = 1000;
+var rankedBalance = 1000;
 
 
-if (quantidadeXP <= 1000) {
+if (rankedBalance <= 1000) {
     var nivelHeroi = "Ferro";
-} else if (1000 < quantidadeXP & quantidadeXP <= 2000) {
+} else if (1000 < rankedBalance & rankedBalance <= 2000) {
     var nivelHeroi = "Bronze";
 
-} else if (2000 < quantidadeXP & quantidadeXP <= 5000) {
+} else if (2000 < rankedBalance & rankedBalance <= 5000) {
     var nivelHeroi = "Prata";
 
-} else if (5000 < quantidadeXP & quantidadeXP <= 7000) {
+} else if (5000 < rankedBalance & rankedBalance <= 7000) {
     var nivelHeroi= "Ouro";
 
-} else if (7000 < quantidadeXP & quantidadeXP <= 8000) {
+} else if (7000 < rankedBalance & rankedBalance <= 8000) {
     var nivelHeroi = "Platina";
 
-} else if (8000 < quantidadeXP & quantidadeXP <= 9000) {
+} else if (8000 < rankedBalance & rankedBalance <= 9000) {
     var nivelHeroi = "Ascendente";
 
-} else if (9000 < quantidadeXP & quantidadeXP <= 10000) {
+} else if (9000 < rankedBalance & rankedBalance <= 10000) {
     var nivelHeroi = "Imortal";
 
-} else if (10000 < quantidadeXP) {
+} else if (10000 < rankedBalance) {
     var nivelHeroi = "Radiante";
 
 } else {
